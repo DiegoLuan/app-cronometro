@@ -16,7 +16,12 @@
           {{ registro.message }}
         </li>
       </ul>
-      <button @click="historico = []" class="btnDelete" :id="idButton">
+      <button
+        style="margin-bottom: 10px"
+        @click="historico = []"
+        class="btnDelete"
+        :id="idButton"
+      >
         Limpar historico
       </button>
     </div>
